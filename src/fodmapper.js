@@ -14,11 +14,18 @@ const dictionary = [
     maxUse: "0g",
     category: "fruit",
     fullName: "Lychee"
+  },
+  {
+    id: "3",
+    scale: "green",
+    maxUse: "free use",
+    category: "fresh vegetables",
+    fullName: "Choy sum"
   }
 ];
 
 const options = {
-  threshold: 0.1,
+  threshold: 0.2,
   keys: ["fullName"]
 };
 
